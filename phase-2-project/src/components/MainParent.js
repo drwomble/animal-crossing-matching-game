@@ -113,6 +113,7 @@ function MainParent(){
       }
     }else{  
        openModal()
+       resetTurn()
   }
   }, [choice1, choice2])
   //reset turns
